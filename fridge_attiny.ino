@@ -1,5 +1,5 @@
 //Attiny85 code for a fridge alarm project, the circuit uses a 3V reference, the light signal is taken on  pin A1, connected to a resistive divider with a 15kohm resistance 
-//and a LDR (the LDR is between A1 and GND). A buzzer is connected to pin 0 abd it is activated if the light is on for more than 10 sec.
+//and a LDR (the LDR is between A1 and GND). A buzzer is connected to pin 0 and it is activated if the light is on for more than 10 sec.
 
 void setup() {
   pinMode(0, OUTPUT);
